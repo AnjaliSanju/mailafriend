@@ -1,0 +1,213 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.logo{
+    color: rgb(41, 40, 40);
+}
+.roboto-slab-logo {
+    font-family: "Roboto Slab", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+  }
+  a{
+    text-decoration: none;
+  }
+
+.theme-lines{
+    border: none;
+    height: 1px;
+    margin-inline: auto;
+    width: 100%;
+    border-top: 3px solid #b90a0a;
+    opacity: .60;
+}
+.homenav{
+    font-size: 11px;
+    font-weight: 500;
+    color: black;
+}
+#heroimage{
+    flex-shrink: 0;
+}
+#heroimage .card-title{
+    color: #c01f1f;
+}
+#heroimage .card-text{
+    color: #c01f1f;
+    font-size: 14px;
+}
+.eventTitle{
+    color: #c01f1f;
+}
+
+/* Events card  */
+.event-card{
+    border:none;
+    flex-shrink: 0;
+    display: flex;
+}
+
+.card-note{
+    font-size: 11px;
+}
+.img{
+           
+    vertical-align: middle;
+    border-style: none;
+    width: 100%;
+    /* max-height: 555px;
+    max-width: 828px; */
+    flex-shrink: 0;
+      
+}
+.booklist-image{
+    height: 200px;
+    width: 200px;
+    flex-shrink: 0;
+    border-style: none;
+
+
+}
+
+/* google font  */
+
+.roboto-thin {
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+  }
+
+  .btn{
+    font-size: 15px;
+    padding:8px
+  }
+
+  .login-page{
+    max-width: 1200px;
+    margin: auto;
+  }
+
+  .login-form{
+    height: fit-content;
+    font-size: 14px;
+    font-family: "nunito_sans","sans-serif";
+    letter-spacing: .3px;
+       
+  }
+  
+  input {
+    width: 100%;  
+    border: 1px solid #DFDFDF; 
+    border-radius: 5px; 
+    padding: 0 10px;
+    margin: 0 -17px;  
+    height: 40px;
+}  
+.form-select{
+    border: 1px solid #DFDFDF;  
+
+}
+.theme-lines-dark{
+    border: none;
+    height: 1px;
+    margin-inline: auto;
+    width: 100%;
+    border-top: 2px solid #c00114;
+    opacity: .40;
+}
+.title{
+    color: rgb(1, 52, 52);
+    text-decoration: none;
+    
+}
+.title a:hover{
+    color: rgb(1, 52, 52) ;
+    color: inherit;    
+    text-decoration: none;
+ 
+}
+.author{
+    color: teal;
+}
+.publish-detail{
+    color: gray;
+    font-size: 13px;
+}
+.book-avail{
+    color: green;
+    font-weight: 500;
+    font-size: 13px;
+}
+.book-not-avail{
+    color: rgb(200, 3, 3);
+    font-weight: 500;
+    font-size: 13px;
+}
+
+.request-btn{
+    border: none;
+    border-radius: 5px;
+    background-color: #425b76;
+    padding: 5px;
+    float: right;
+    font-size: 14px;
+}
+.request-detail{
+    color:#425b76 ;
+    font-size: 13px;
+    float: right;
+}
+.bookmark{
+    margin-right:14px;
+    background-color:#e45d3f;
+    border-radius:24px;
+    width:48px;
+    height: 48px;
+    font-size: 48px;
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+    color: #fff;
+    
+}
+.preference{
+    display:flex;
+    align-items:center;
+}
+.toppick-card{
+    border: none;
+    
+}
+.footer{
+    background-color: rgb(19, 19, 19);
+    font-family: "nunito_sans", "sans-serif";
+    font-size: 13px;
+    color: whitesmoke;
+    padding: 10px;
+    /* margin: 20px; */
+    text-align: center;
+    text-decoration: none;  
+    height:100px;
+    display: block;
+}
+.footer a{
+    text-decoration: none;
+    color: whitesmoke;
+    color: inherit;    
+
+}
+.btn-outline-danger{
+    border-radius: 10px;
+}
+.toppick-card-img{
+    height: 150px;
+    width: 150px;
+}
+/* form error messages for sign up */
+.error-message {
+    color: red;
+    font-size: 14px;
+    margin-top: 5px;
+}
